@@ -5,7 +5,7 @@ version: "@version@"
 
 # The syntax debug will change the colour of the found syntax option. That way it's easier to tell if that syntax was registered out of all the debug messages.
 syntaxDebug: "Sound"
-debug: false
+debug: true
 
 # Checks for the latest Skellett version from Spigot.
 VersionChecker: true
@@ -28,16 +28,16 @@ DisableRegisteredInfo: false
 CenterMessageSize: 62
 
 # Enables 1.8 pvp combat speeds if you run a 1.11 server with protocolsupport.
-Enable1_8pvp: false
+Enable1_8pvp: true
 
 PluginHooks:
-    LibsDisguises: false
+    LibsDisguises: true
     # If you use Citizens https://www.spigotmc.org/resources/citizens.13811/
-    Npc: false
+    Npc: true
     # If you use Holograms https://www.spigotmc.org/resources/holograms.4924/
-    Holograms: false
+    Holograms: true
     # If you use CorpseReborn https://www.spigotmc.org/resources/corpsereborn.29875/
-    CorpseReborn: false
+    CorpseReborn: true
  
     # If you use PlayerPoints https://dev.bukkit.org/projects/playerpoints
-    PlayerPoints: false
+    PlayerPoints: true
